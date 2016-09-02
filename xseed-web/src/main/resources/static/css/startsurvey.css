@@ -1,0 +1,76 @@
+.empty-page{
+	background-image:url('../img/PAGE_empty.png');
+	background-repeat:no-repeat;
+	background-size:10px 10px;
+	width:10px;
+	height:10px;
+	display:inline-block;
+}
+
+.current-page{
+	background-image:url('../img/PAGE_current.png');
+	background-size:18px 18px;
+	width:18px;
+	height:18px;
+	display:inline-block;
+	text-align:center;
+}
+
+.pass-page{
+	background-image:url('../img/PAGE_pass.png');
+	background-size:10px 10px;
+	width:10px;
+	height:10px;
+	display:inline-block;
+}
+
+.other{
+	margin-left:10px;
+}
+
+.page-progress{
+	margin-top:50px;
+}
+
+.yes-no{
+	margin-bottom:5px;
+}
+
+.six-options{
+	margin:15px auto 0;
+	
+}
+
+.six-options input[type=radio]+span, .six-options input[type=checkbox] + span{
+	padding-left:30px;
+	padding-bottom: 10px;
+	background:url('../img/BTN_bullet_empty.png') no-repeat;
+	background-size:19px 20px;
+	width:19px;
+	height:20px;
+	display:block;
+	margin:0 auto;
+}
+
+.six-options input[type=radio]:checked + span,.six-options  input[type=checkbox]:checked + span {
+	background:url('../img/BTN_bullet_full.png') no-repeat;
+	background-size:19px 19px;
+	width:19px;
+	height:19px;
+	display:block;
+	margin:0 auto;
+}
+
+.six-options td{
+	width:16.6%;
+}
+
+.six-options td label{
+	text-align:center;
+}
+
+#submit{
+	border:0px;
+	border-radius:23px;
+}
+

@@ -1,0 +1,9 @@
+Hello,
+
+You've been invited to a @@startup.To create your profile open the link bellow!
+
+Link: <a href="http://@@host:@@port/@@app/invitation?token=@@token&email=@@email">http://@@host:@@port/@@app/invitation?token=@@token&email=@@email</a>
+
+With kind regards,
+
+The <b>XSeed</b> team

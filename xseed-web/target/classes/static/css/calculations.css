@@ -1,0 +1,63 @@
+div.col-md-12 .row{
+		padding:20px 25px;	
+	}
+	
+	.container{
+		padding:0px;
+	}
+
+	@media only screen and (max-device-width: 770px) {
+	
+		.content{
+			width:770px;
+		}
+		
+		.header{
+			width:770px;
+		}
+		
+		.navbar{
+			width:770px;
+		}
+	}
+	
+	.next{
+		float:right;
+		margin-right:0%;
+		background-image:url('../img/makecalc.png');
+		background-size:300px 40px;
+		width:300px;
+		height:40px;
+		display:inline-block;
+	 	vertical-align:middle;
+		font-size:20px;
+		font-color:black;
+	}
+	
+	.next a{
+		display:block;
+		width:300px;
+		height:40px;
+		text-decoration:none;
+		color:black;
+		text-align:center;
+		padding-top:6px;
+	}
+	
+.next:hover {
+ 	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+ 	transform: scale(1.1);
+}
+
+	
+.next a:hover {    
+	color : white;  
+ 	-webkit-transform: scale(1.1);
+ 	-moz-transform: scale(1.1);
+ 	-ms-transform: scale(1.1);
+ 	-o-transform: scale(1.1);
+ 	transform: scale(1.1);
+}

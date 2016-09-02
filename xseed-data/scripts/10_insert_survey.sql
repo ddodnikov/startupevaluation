@@ -1,0 +1,1 @@
+INSERT INTO surveys(name) VALUES('Survey N1');

@@ -1,0 +1,40 @@
+.next{
+	float:center;
+	margin-right:0.5%;
+	margin-left:0.5%;
+	background-image:url('../img/editstartupbuttons.png');
+	background-size:110px 30px;
+	width:110px;
+	height:30px;
+	display:inline-block;
+ 	vertical-align:middle;
+	font-size:14px;
+}
+
+.next a{
+	display:block;
+	width:110px;
+	height:30px;
+	text-decoration:none;
+	color:black;
+	text-align:center;
+	padding-top:5px;
+}
+	
+.next:hover {
+ 	-webkit-transform: scale(1.15);
+ 	-moz-transform: scale(1.15);
+ 	-ms-transform: scale(1.15);
+ 	-o-transform: scale(1.15);
+ 	transform: scale(1.15);
+}
+
+	
+.next a:hover {    
+	color : white;  
+ 	-webkit-transform: scale(1.15);
+ 	-moz-transform: scale(1.15);
+ 	-ms-transform: scale(1.15);
+ 	-o-transform: scale(1.15);
+ 	transform: scale(1.15);
+}

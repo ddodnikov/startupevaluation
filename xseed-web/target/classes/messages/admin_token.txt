@@ -1,0 +1,9 @@
+Hello,
+
+You've been invited as admin for XSeed.Follow the link bellow to create your profile.
+
+Link: <a href="http://@@host:@@port/@@app/createadmin?token=@@token&email=@@email">http://@@host:@@port/@@app/createadmin?token=@@token&email=@@email</a>
+
+With kind regards,
+
+The <b>XSeed</b> team

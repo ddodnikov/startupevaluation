@@ -1,0 +1,29 @@
+.kpi-answer label{
+	text-align:center;
+	margin-bottom:10px;
+}
+#submit{
+	border:0px;
+	border-radius:23px;
+}
+@media only screen and (max-device-width: 767px) {
+	.answer{
+		float:none;
+	}
+}
+#resultError, #inputError, #nameError{
+	display:none;
+	margin: 0 auto;
+}
+#resultError label, #inputError label, #nameError label{
+	color:#e0053c;
+	text-align:center;
+	font-size:17px;
+}
+#loader{
+	position: absolute;
+	margin: auto;
+	top: 0;right: 0;bottom: 0;left: 0;width: 120px;
+	height: 120px;
+	display: none;
+}

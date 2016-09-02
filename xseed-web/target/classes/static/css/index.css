@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+	.header{
+		background-image:url('../img/BG_headerLong.png');
+		background-size:1366px 389px;
+		height:389px;
+	}
+	
+	.header div.col-md-12{
+		margin-top:20%;
+	}
+	
+	@media only screen and (max-device-width: 480px) {
+		.header div.col-md-12{
+			margin-top:50%;
+		}
+		
+		.header p:first-child{
+			font-size:30px;
+		}
+			
+		.header p:last-child{
+			font-size: 20px;
+		}
+	}
+	
+	/* CONTENT for index and home*/
+	.content{
+		background-image:url('../img/BG_greenWhite.png');
+		background-size:1366px 100%;
+		height:100%;
+		padding-bottom:40px;
+	}
+	
+	.content div.col-md-12{
+		margin-top:10%;
+	}
+	
+	
+	/*Login, Register, Reset password*/
+	.login-form, .register-form, .reset-form{
+		margin-top:5%;
+		margin-bottom:5%;
+	}
+	
+	.login-form .rightlink, .register-form .rightlink{
+		text-align:right;
+	}
+	
+	.login-form .leftlink, .register-form .leftlink {
+		text-align:left;
+	}

@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+body {
+	color: #545e79;
+	background-color: #e4f5e4;
+}
+
+#ico-names {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.red-font {
+	color: #e0053c;
+	font-size: 17px;
+}
+
+.blue-font, a{
+	color: #5999e4;
+}
+
+.header-title{
+	color: #ffffff;
+	text-align:center;
+}
+
+.header p:first-child{
+	font-size:42px;
+}
+	
+.header p:last-child{
+	font-size: 24px;
+}
+
+.left{
+	text-align:left;
+}
+
+.content div.no-top-margin{
+		margin-top:0;
+}
+
+a:hover{
+	cursor:pointer;
+}
+
+label.control-label {
+    float: left;
+}

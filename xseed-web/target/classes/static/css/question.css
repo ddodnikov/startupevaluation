@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+/*CSS design for survey questions and calculation filter*/
+
+/*Custom checkbox and radio button*/
+	input[type=radio], input[type=checkbox]{
+		display:none;
+	}
+
+	input[type=radio]+span{
+		padding-left:30px;
+		padding-bottom: 10px;
+		background:url('../img/BTN_bullet_empty.png') no-repeat;
+		background-size:19px 20px;
+		width:19px;
+		height:20px;
+		display:inline;
+	}
+	
+	
+	
+	input[type=checkbox] + span{
+		padding-left:30px;
+		padding-bottom: 10px;
+		background:url('../img/BTN_check_empty.png') no-repeat;
+		background-size:19px 20px;
+		width:19px;
+		height:20px;
+		display:inline;
+	}
+	input[type=radio]:checked + span {
+		background:url('../img/BTN_bullet_full.png') no-repeat;
+		background-size:19px 19px;
+		width:19px;
+		height:19px;
+		display:inline;
+	}
+	
+	input[type=checkbox]:checked + span {
+		background:url('../img/BTN_check_full.png') no-repeat;
+		background-size:19px 19px;
+		width:19px;
+		height:19px;
+		display:inline;
+	}
+
+	input[type=radio] + span + div, input[type=checkbox] + span + div{
+		margin-left:30px;
+		margin-top:-20px;
+	}
+	/*-Next and Prev buttons-*/
+	.next{
+		float:right;
+		margin-right:10%;
+		background-image:url('../img/BTN_Green.png');
+		background-size:176px 45px;
+		width:176px;
+		height:45px;
+		display:inline-block;
+		text-align:center;
+	 	vertical-align:middle;
+	 	padding:13px;
+	 	margin-top:20px;
+	 	cursor:pointer;
+	}
+	
+	.prev{
+		float:left;
+		margin-left:10%;
+		background-image:url('../img/BTN_White.png');
+		background-size:176px 45px;
+		width:176px;
+		height:45px;
+		display:inline-block;
+		text-align:center;
+		padding:13px;
+		margin-top:20px;
+		cursor:pointer;
+	}
+	
+	
+	
+	p{
+		clear:both;
+	}
+	
+	ol, ul {
+		marign: 0px;
+		padding: 0px;
+	}
+	
+	label{
+		text-align:left;
+		display:block;
+		font-weight:normal;
+	}
+	
+	
+	.question-title{
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	.answer{
+		float:left;
+		margin-bottom:10px;
+		height:40px;
+	}
+	

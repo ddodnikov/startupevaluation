@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+input[type=radio] + span{
+	position:relative;
+	top:15px;
+}
+
+input[type=radio] + span + div, input[type=checkbox] + span + div{
+	margin-left:30px;
+	margin-top:0px;
+}
